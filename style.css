@@ -1,0 +1,87 @@
+.links-flex-container{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+}
+
+.links-flex-container > h4,
+#logo,
+a
+{
+    padding: 10px;
+    color: white;
+}
+
+#topBG{
+    background-color: rgb(89, 89, 158);
+    width: 1366px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    z-index: -100;
+    
+}
+
+#title{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: white;
+}
+
+#textUnderH1{
+    color: lightgrey;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+#signUpButton{
+    background-color: cyan;
+    border-radius: 6px;
+    width: 100px;
+    height: 50px;
+    font-size: larger;    
+    position: absolute;
+    left: 150px;
+    top: 260px;
+    border-style: none;
+}
+
+#img{
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    color: white;
+}
+
+#imgBG{
+    background-color: grey;
+    width: 300px;
+    height: 175px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.gif{
+    width: 164px;
+    height: 164px;
+    padding: 30px;
+    display: flex;
+}
+
+#imgs-text-flexbox{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 200px;
+}
